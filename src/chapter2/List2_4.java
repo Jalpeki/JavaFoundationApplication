@@ -17,8 +17,8 @@ public class List2_4 {
 
 		//現在の時刻
 		LocalDate now = LocalDate.now();
-		if(now.	isAfter(d)){
+		//if(now.	isAfter(d)){
 			System.out.println("nowはｄより新しい");
-		}
+	//	}
 	}
 }
