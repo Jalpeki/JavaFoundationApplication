@@ -1,7 +1,6 @@
 package chapter2;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class List2_4 {
@@ -9,7 +8,8 @@ public class List2_4 {
 		//文字列からLocalDateTimeを作成
 		DateTimeFormatter f = DateTimeFormatter.ofPattern("yyyy/MM/dd");
 		System.out.println(f);
-		LocalDateTime d = LocalDateTime.parse("2011/08/21",f);
+		LocalDate d = LocalDate.parse("2011/08/21",f);
+		System.out.println(d);
 		//1000日後を計算
 		d = d.plusDays(1000);
 		String str = d.format(f);
@@ -17,8 +17,8 @@ public class List2_4 {
 
 		//現在の時刻
 		LocalDate now = LocalDate.now();
-		//if(now.	isAfter(d)){
+		if(now.	isAfter(d)){
 			System.out.println("nowはｄより新しい");
-	//	}
+		}
 	}
 }
