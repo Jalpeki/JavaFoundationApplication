@@ -15,9 +15,3 @@ public class Account implements Comparable<Account>{
 }
 
 
-public class List4_7 {
-	public static void main(String[] args) {
-
-	}
-
-}
