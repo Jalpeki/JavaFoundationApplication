@@ -75,3 +75,7 @@ public class Hero {
 		this.hp = hp;
 		}
 }
+
+/*	public String toString(){
+		return
+	}*/

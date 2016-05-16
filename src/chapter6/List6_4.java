@@ -11,5 +11,4 @@ public class List6_4 {
 		int a = func.applyAsInt(5,3);
 		System.out.println("5 - 3は" +  a);
 	}
-
 }
