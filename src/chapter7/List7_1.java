@@ -6,7 +6,7 @@ public class List7_1 {
 		int y =6;
 		if(!(x>=y)){
 			System.out.println("データが違う！！");
-			System.exit(1);
+			System.exit(0);
 		}
 		System.out.println("正常終了しました");
 	}
